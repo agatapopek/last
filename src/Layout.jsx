@@ -1,14 +1,19 @@
 import { Outlet } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Container from '@mui/material/Container';
+import Grid from '@mui/material/Grid'; 
+
 
 export default function Layout(){
     return(
         <>
         <Header/>
-        <main>
+        <Container>
+            <Grid container spacing={5}>
             <Outlet/>
-        </main>
+            </Grid>
+        </Container>
         <Footer/>
         </>
     )

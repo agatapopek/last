@@ -6,6 +6,7 @@ import SecondPage from './views/SecondPage'
 import ThirdPage from './views/ThirdPage'
 
 
+
 const router = createBrowserRouter([
   {
     path: "/last/",
