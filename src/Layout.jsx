@@ -9,7 +9,8 @@ export default function Layout(){
     return(
         <>
         <Header/>
-        <Container>
+        <Container sx={{
+            marginY: 5}}>
             <Grid container spacing={5}>
             <Outlet/>
             </Grid>
